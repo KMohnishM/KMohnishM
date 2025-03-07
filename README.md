@@ -1,15 +1,15 @@
 <h1 align="center">Hi 👋, I'm Mohnish</h1>
-<h3 align="center">A passionate web developer 😁</h3>
+<h3 align="center">A passionate Full Stack developer 😁</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kmohnishm&label=Profile%20views&color=0e75b6&style=flat" alt="kmohnishm" /> </p>
 
-- 🔭 I’m currently working on **React.js**
+- 🔭 I’m currently working with **NEXT.js**
 
-- 🌱 I’m currently learning **Angular.js,node.js,mongodb**
+- 🌱 I’m currently learning **Angular.js,Django,Go**
 
 - 👨‍💻 All of my projects are available at [https://github.com/KMohnishM](https://github.com/KMohnishM)
 
-- 💬 Ask me about **Html,Tailwind css,React.js,Express.js,Flask**
+- 💬 Ask me about **MERN STACK,GIT,Vercel,Docker**
 
 - 📫 How to reach me **Mail:Kmohnishm@gmail.com**
 
