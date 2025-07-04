@@ -1,80 +1,70 @@
-<h1 align="center">Hi 👋, I'm Mohnish</h1>
-<h3 align="center">A passionate Full Stack developer 😁</h3>
+<h1 align="center">Hi there! I'm Mohnish 🚀</h1>
+<h3 align="center">Full Stack Developer | AI Explorer | Systems Thinker</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kmohnishm&label=Profile%20views&color=0e75b6&style=flat" alt="kmohnishm" /> </p>
-
-- 🔭 I’m currently working with **NEXT.js**
-
-- 🌱 I’m currently learning **Angular.js,Django,Go**
-
-- 👨‍💻 All of my projects are available at [https://github.com/KMohnishM](https://github.com/KMohnishM)
-
-- 💬 Ask me about **MERN STACK,GIT,Vercel,Docker**
-
-- 📫 How to reach me **Mail:Kmohnishm@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kmohnishm&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">  
-    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">  
-        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwindcss" width="40" height="40"/>  
-    </a>  
-    <a href="https://vercel.com/" target="_blank" rel="noreferrer">  
-        <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="vercel" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.docker.com/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>  
-    </a>  
-    <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="kubernetes" width="40" height="40"/>  
-    </a>  
-    <a href="https://grafana.com/" target="_blank" rel="noreferrer">  
-        <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/>  
-    </a>  
-    <a href="https://prometheus.io/" target="_blank" rel="noreferrer">  
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" alt="prometheus" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>  
-    </a>  
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>  
-    </a>  
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">  
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.java.com" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>  
-    </a>  
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">  
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>  
-    </a>  
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>  
-    </a>  
-    <a href="https://www.python.org" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>  
-    </a>  
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">  
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>  
-    </a>  
-</p>
+---
+
+🧠 **About Me**  
+I'm Mohnish Mythreya – an engineer who believes technology isn’t just about code, but about creating systems that adapt, scale, and help people grow.
+
+I’m currently in my 3rd year at VIT Chennai. From designing AI-driven learning systems to building real-time dashboards, I chase ideas that blend **intelligence with infrastructure**.
+
+What excites me?  
+→ Systems that **think**, **learn**, and **serve with purpose**.  
+→ Tools that **make lives easier** — whether it's for a student stuck on a bug or a team managing a cloud pipeline.
+
+---
+
+🛠️ **What I Work With**
+
+- **Languages:** Python, JavaScript, C++, Java  
+- **Frameworks:** Angular.js, Next.js, Django, FastAPI  
+- **AI/LLMs:** Prompt Engineering, LangChain, OpenRouter
+- **DevOps:** Docker, GitLab CI/CD, Redis, AWS EC2  
+- **Monitoring:** Prometheus, Grafana, WebSockets  
+- **DBs:** MongoDB, PostgreSQL (learning)  
+
+---
+
+👨‍💻 All of my projects are available at [https://github.com/KMohnishM](https://github.com/KMohnishM)  
+📦 Below is a quick overview of some repositories:
+
+---
+
+### 📚 **Recent Projects**
+
+- 🧩 **[HintGen](https://github.com/KMohnishM/Hint_Generation)** – Contextual LLM-based hint system for guiding students without revealing solutions.
+
+- 🧠 **[SALS](https://github.com/KMohnishM/SALS)** – Adaptive learning platform using diagnostic quizzes and LLMs to personalize content.
+
+- 🌾 **[SoilClassification_annam](https://github.com/KMohnishM/SoilClassification_annam)** – Soil type image classifier using Vision Transformers (ViT) and Grad-CAM.
+
+- 🌐 **[CN_Project](https://github.com/KMohnishM/CN_Project)** – Cloud-based hospital monitoring system using Prometheus, Grafana, and Docker.
+
+- 🖥️ **[os_DA](https://github.com/KMohnishM/os_DA)** – Real-time CPU scheduler with ncurses UI and adaptive round-robin logic.
+
+---
 
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kmohnishm&show_icons=true&locale=en&layout=compact" alt="kmohnishm" /></p>
+
+🎯 **My Focus Areas Now**
+
+- Merging **Gen AI + DevOps**  
+- Real-time system design (**WebSockets**, **Redis**)  
+- Building tech that helps people **learn**, **collaborate**, or **heal**
+
+---
+
+📬 **Let’s Connect**
+
+- 📧 Email: [kmohnishm@gmail.com](mailto:kmohnishm@gmail.com)  
+- 🌐 Portfolio: [kmohnishm.github.io](https://kmohnishm.github.io)  
+- 💼 LinkedIn: [linkedin.com/in/mohnish-kodukulla-83b82a287](https://www.linkedin.com/in/mohnish-kodukulla-83b82a287/)  
+- 🧑‍💻 GitHub: [@KMohnishM](https://github.com/KMohnishM)
+
+---
+
 
