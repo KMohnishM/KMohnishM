@@ -8,9 +8,9 @@
 ---
 
 🧠 **About Me**  
-I'm Mohnish Mythreya – an engineer who believes technology isn’t just about code, but about creating systems that adapt, scale, and help people grow.
+I am Mohnish Mythreya – an engineer who believes technology isn’t just about code, but about creating systems that adapt, scale, and help people grow.
 
-I’m currently in my 3rd year at VIT Chennai. From designing AI-driven learning systems to building real-time dashboards, I chase ideas that blend **intelligence with infrastructure**.
+I am currently in my 3rd year at VIT Chennai. From designing AI-driven learning systems to building real-time dashboards, I chase ideas that blend **intelligence with infrastructure**.
 
 What excites me?  
 → Systems that **think**, **learn**, and **serve with purpose**.  
