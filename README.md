@@ -41,7 +41,7 @@ I believe technology isn’t just about code, but about building *systems that a
 - *AI/LLMs:* Prompt Engineering, LangChain, OpenRouter  
 - *DevOps:* Docker, GitLab CI/CD, Redis, AWS EC2  
 - *Monitoring:* Prometheus, Grafana, WebSockets  
-- *Databases:* MongoDB, PostgreSQL (learning)  
+- *Databases:* MongoDB, PostgreSQL   
 
 <!-- Animated Skill Icons -->
 <p align="center">
