@@ -22,7 +22,7 @@
 
 ## 🚀 About Me
 
-I’m a **3rd-year Computer Science student at VIT Chennai (CGPA: 9.31)** focused on building:
+I’m a **3rd-year Computer Science student at VIT Chennai (CGPA: 9.29)** focused on building:
 
 * Adaptive AI systems
 * Real-time event-driven architectures
