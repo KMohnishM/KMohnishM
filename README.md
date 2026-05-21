@@ -235,7 +235,7 @@ Contributing across:
 * 🌟 Google Summer of Code 2026 — Debezium
 * 👨‍💻 Development Lead — CYSCOM VIT Chennai
 * 🥈 Runner-Up — ILH Hackathon
-* 📚 215+ DSA problems solved on LeetCode
+* 📚 275+ DSA problems solved on LeetCode
 * 🔓 Active Open Source Contributor to Debezium Ecosystem
 
 ---
