@@ -18,7 +18,7 @@
   </a>
 </p>
 
----
+
 
 ## 🚀 About Me
 
@@ -42,7 +42,7 @@ I enjoy designing systems where:
 
 > data changes in real-time, systems remain observable, and AI workflows stay continuously adaptive.
 
----
+
 
 ## 🧠 Current Engineering Interests
 
@@ -59,7 +59,7 @@ I enjoy designing systems where:
 • Real-Time Monitoring Systems
 ```
 
----
+
 
 ## ⚙️ Tech Stack
 
@@ -95,7 +95,7 @@ I enjoy designing systems where:
   <img src="https://img.shields.io/badge/Debezium-BD282E?style=for-the-badge" />
 </p>
 
----
+
 
 ## 🌟 Featured Projects
 
@@ -111,7 +111,7 @@ I enjoy designing systems where:
 
 **Tech:** Debezium • CDC • LangChain • LangGraph • Vector DBs • Pydantic
 
----
+
 
 ### 🧠 HintGen
 
@@ -124,7 +124,7 @@ I enjoy designing systems where:
 
 🔗 Repo: [https://github.com/KMohnishM/Hint_Generation](https://github.com/KMohnishM/Hint_Generation)
 
----
+
 
 ### 📚 SALS — Smart Adaptive Learning System
 
@@ -137,7 +137,7 @@ I enjoy designing systems where:
 
 🔗 Repo: [https://github.com/KMohnishM/SALS](https://github.com/KMohnishM/SALS)
 
----
+
 
 ### 🏥 IoT Healthcare Monitoring System
 
@@ -150,7 +150,7 @@ I enjoy designing systems where:
 
 🔗 Repo: [https://github.com/KMohnishM/Iot_new](https://github.com/KMohnishM/Iot_new)
 
----
+
 
 ### ☁️ AWS Cloud Infrastructure
 
@@ -158,7 +158,7 @@ I enjoy designing systems where:
 
 🔗 Repo: [https://github.com/KMohnishM/AWS_Cloud](https://github.com/KMohnishM/AWS_Cloud)
 
----
+
 
 ### 🧠 LearnSQL.ai
 
@@ -166,7 +166,7 @@ I enjoy designing systems where:
 
 🔗 Repo: [https://github.com/KMohnishM/LearnSQL.ai](https://github.com/KMohnishM/LearnSQL.ai)
 
----
+
 
 ## 🌍 Open Source Contributions
 
@@ -194,7 +194,7 @@ Contributing across:
 * [https://github.com/debezium/debezium-server/pulls?q=author:KMohnishM](https://github.com/debezium/debezium-server/pulls?q=author:KMohnishM)
 * [https://github.com/debezium/debezium-examples/pulls?q=author:KMohnishM](https://github.com/debezium/debezium-examples/pulls?q=author:KMohnishM)
 
----
+
 
 ## 📈 GitHub Analytics
 <p align="center">
@@ -207,7 +207,7 @@ Contributing across:
   <img src="https://streak-stats.demolab.com?user=KMohnishM&theme=tokyonight&hide_border=true" />
 </p>
 
----
+
 
 ## 📊 Contribution Activity
 
@@ -215,20 +215,20 @@ Contributing across:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=KMohnishM&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
 </p>
 
----
+
 
 ## 🐍 Contribution Snake
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
----
+
 ## 📊 Contribution Graph
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KMohnishM&theme=tokyonight" />
 </p>
----
+
 
 ## 🏆 Achievements
 
@@ -238,7 +238,7 @@ Contributing across:
 * 📚 300+ DSA problems solved on LeetCode
 * 🔓 Active Open Source Contributor to Debezium Ecosystem
 
----
+
 
 ## 📬 Connect With Me
 
@@ -260,7 +260,7 @@ Contributing across:
   </a>
 </p>
 
----
+
 
 <p align="center">
   <i>"Building systems that continuously learn, adapt, and stay observable in real time."</i>
