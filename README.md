@@ -34,7 +34,7 @@ Currently:
 
 * 🌟 **Google Summer of Code 2026 @ Debezium**
 * 🌐 Working across full-stack systems, cloud infrastructure, and AI-driven workflows
-* 🔧 Building **PyDebeziumAI** — a real-time CDC integration layer for LangChain & LangGraph
+* 🔧 Building **PyDebeziumAI** - a real-time CDC integration layer for LangChain & LangGraph
 * 🧠 Exploring semantic synchronization pipelines, vector infrastructure, and AI orchestration systems
 * 👨‍💻 Development Lead at **CYSCOM VIT Chennai**
 
