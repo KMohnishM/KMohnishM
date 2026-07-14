@@ -44,7 +44,7 @@ I enjoy designing systems where:
 
 
 
-## 🧠 Current Engineering Interests
+## 🧠 Current Engineering Explorers
 
 ```text
 • Full-Stack Application Development
