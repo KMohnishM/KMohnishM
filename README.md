@@ -20,7 +20,7 @@
 
 
 
-## 🚀 About Me
+##  About Me
 
 I’m a **4th year Computer Science student at VIT Chennai (CGPA: 9.28)** focused on building:
 
@@ -44,7 +44,7 @@ I enjoy designing systems where:
 
 
 
-## 🧠 Current Engineering Explorers
+##  Current Engineering Explorers
 
 ```text
 • Full-Stack Application Development
@@ -61,7 +61,7 @@ I enjoy designing systems where:
 
 
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 ### Languages
 
@@ -170,7 +170,7 @@ I enjoy designing systems where:
 
 ## 🌍 Open Source Contributions
 
-### 🔥 Debezium Ecosystem
+###  Debezium Ecosystem
 
 Contributing across:
 
@@ -196,7 +196,7 @@ Contributing across:
 
 
 
-## 📈 GitHub Analytics
+##  GitHub Analytics
 <p align="center">
   <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
   
@@ -209,7 +209,7 @@ Contributing across:
 
 
 
-## 📊 Contribution Activity
+##  Contribution Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=KMohnishM&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
@@ -223,7 +223,7 @@ Contributing across:
 </p>
 
 
-## 📊 Contribution Graph
+##  Contribution Graph
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KMohnishM&theme=tokyonight" />
