@@ -197,17 +197,18 @@ Contributing across:
 
 
 ##  GitHub Analytics
+
 <p align="center">
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KMohnishM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="170em"
+       src="https://github-readme-stats.vercel.app/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+
+  <img height="170em"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=KMohnishM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=KMohnishM&theme=tokyonight&hide_border=true" />
 </p>
-
-
 
 ##  Contribution Activity
 
