@@ -41,6 +41,8 @@ jobs:
       - name: Fetch the real streak card
         run: |
           curl -sf "http://localhost:8080/?user=KMohnishM&theme=tokyonight&hide_border=true" -o github-streak.svg
+      - name: Sync with remote before committing
+        run: git pull --rebase origin main
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update streak svg"
@@ -71,6 +73,8 @@ jobs:
         run: |
           curl -sf "http://localhost:9000/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" -o github-readme-stats.svg
           curl -sf "http://localhost:9000/api/top-langs/?username=KMohnishM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o github-readme-langs.svg
+      - name: Sync with remote before committing
+        run: git pull --rebase origin main
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update readme stats svgs"
