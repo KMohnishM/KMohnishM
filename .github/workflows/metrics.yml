@@ -75,19 +75,34 @@ jobs:
           commit_message: "chore: update streak svg"
           file_pattern: github-streak.svg
 
-  metrics-stats:
+  readme-stats:
     runs-on: ubuntu-latest
+    services:
+      grs:
+        image: ghcr.io/fim-sh/github-readme-stats-docker:latest
+        ports:
+          - 9000:9000
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+      - name: Wait for stats server to be ready
+        run: |
+          for i in $(seq 1 20); do
+            if curl -sf "http://localhost:9000/api?username=KMohnishM" -o /dev/null; then
+              echo "Server is up"
+              break
+            fi
+            sleep 3
+          done
+      - name: Fetch the real stats + top-langs cards
+        run: |
+          curl -sf "http://localhost:9000/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" -o github-readme-stats.svg
+          curl -sf "http://localhost:9000/api/top-langs/?username=KMohnishM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o github-readme-langs.svg
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: KMohnishM
-          filename: github-metrics-stats.svg
-          template: classic
-          base: header, activity, community, repositories, metadata
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 15
+          commit_message: "chore: update readme stats svgs"
+          file_pattern: github-readme-stats.svg github-readme-langs.svg
 
   metrics-activity:
     runs-on: ubuntu-latest
