@@ -200,14 +200,14 @@ Contributing across:
 
 <p align="center">
   <img height="170em"
-       src="https://github-readme-stats-brundabharadwaj.vercel.app/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+       src="https://github-readme-stats.vercel.app/api?username=KMohnishM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
 
   <img height="170em"
-       src="https://github-readme-stats-brundabharadwaj.vercel.app/api/top-langs/?username=KMohnishM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=KMohnishM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KMohnishM&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=KMohnishM&theme=tokyonight&hide_border=true" />
 </p>
 
 ##  Contribution Activity
