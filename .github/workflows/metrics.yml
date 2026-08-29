@@ -3,9 +3,16 @@ name: Metrics
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '**/*.svg'
+      - 'metrics_renders/**'
   schedule:
     - cron: '0 * * * *'   # hourly refresh (GitHub scheduling isn't exact under load)
   workflow_dispatch:       # lets you trigger a manual refresh from the Actions tab
+
+concurrency:
+  group: metrics
+  cancel-in-progress: false
 
 permissions:
   contents: write
