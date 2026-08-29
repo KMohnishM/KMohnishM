@@ -199,7 +199,11 @@ Contributing across:
 ##  GitHub Analytics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KMohnishM/KMohnishM/main/github-metrics-stats.svg" />
+  <img height="170em"
+       src="https://raw.githubusercontent.com/KMohnishM/KMohnishM/main/github-readme-stats.svg" />
+
+  <img height="170em"
+       src="https://raw.githubusercontent.com/KMohnishM/KMohnishM/main/github-readme-langs.svg" />
 </p>
 
 <p align="center">
@@ -209,7 +213,7 @@ Contributing across:
 ##  Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KMohnishM/KMohnishM/main/github-metrics-activity.svg" width="95%"/>
+  <img src="https://raw.githubusercontent.com/KMohnishM/KMohnishM/main/metrics_renders/github-metrics-activity.svg" width="95%"/>
 </p>
 
 
