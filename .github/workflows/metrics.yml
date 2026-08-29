@@ -19,7 +19,7 @@ jobs:
         ports:
           - 8080:80
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.GH_PAT }}
     steps:
       - uses: actions/checkout@v4
       - name: Wait for streak server to be ready
@@ -40,6 +40,7 @@ jobs:
           file_pattern: github-streak.svg
 
   readme-stats:
+    needs: streak-stats
     runs-on: ubuntu-latest
     services:
       grs:
@@ -47,7 +48,7 @@ jobs:
         ports:
           - 9000:9000
         env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.GH_PAT }}
     steps:
       - uses: actions/checkout@v4
       - name: Wait for stats server to be ready
@@ -69,11 +70,12 @@ jobs:
           file_pattern: github-readme-stats.svg github-readme-langs.svg
 
   metrics-activity:
+    needs: readme-stats
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           user: KMohnishM
           filename: github-metrics-activity.svg
           template: classic
