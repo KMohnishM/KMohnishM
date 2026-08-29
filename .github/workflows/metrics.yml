@@ -1,0 +1,104 @@
+name: Metrics
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 * * * *'   # hourly refresh (GitHub scheduling isn't exact under load)
+  workflow_dispatch:       # lets you trigger a manual refresh from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  streak-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate streak SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request
+
+          token = os.environ["GH_TOKEN"]
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              contributionsCollection {
+                contributionCalendar {
+                  totalContributions
+                  weeks { contributionDays { date contributionCount } }
+                }
+              }
+            }
+          }
+          """
+          req = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=json.dumps({"query": query, "variables": {"login": "KMohnishM"}}).encode(),
+              headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"},
+          )
+          data = json.loads(urllib.request.urlopen(req).read())
+          cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+          days = [d for w in cal["weeks"] for d in w["contributionDays"]]
+          total = cal["totalContributions"]
+
+          current = 0
+          for day in reversed(days):
+              if day["contributionCount"] > 0:
+                  current += 1
+              else:
+                  break
+
+          longest = run = 0
+          for day in days:
+              if day["contributionCount"] > 0:
+                  run += 1
+                  longest = max(longest, run)
+              else:
+                  run = 0
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="150">
+            <rect width="100%" height="100%" fill="#1a1b27" rx="10"/>
+            <text x="50%" y="35%" fill="#7aa2f7" font-size="20" text-anchor="middle" font-family="Segoe UI, sans-serif">Total Contributions: {total}</text>
+            <text x="25%" y="70%" fill="#e0af68" font-size="18" text-anchor="middle" font-family="Segoe UI, sans-serif">Current Streak: {current}</text>
+            <text x="75%" y="70%" fill="#9ece6a" font-size="18" text-anchor="middle" font-family="Segoe UI, sans-serif">Longest Streak: {longest}</text>
+          </svg>'''
+
+          with open("github-streak.svg", "w") as f:
+              f.write(svg)
+          PY
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update streak svg"
+          file_pattern: github-streak.svg
+
+  metrics-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: KMohnishM
+          filename: github-metrics-stats.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
+
+  metrics-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: KMohnishM
+          filename: github-metrics-activity.svg
+          template: classic
+          base: header
+          plugin_activity: yes
+          plugin_activity_limit: 10
+          plugin_activity_days: 14
